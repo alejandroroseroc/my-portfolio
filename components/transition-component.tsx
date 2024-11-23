@@ -13,7 +13,7 @@ export function MotionTransition(props: MotionTransitionProps) {
     const { children, className, position } = props
 
     return (
-        <motion.div
+        <motion.section
             variants={fadeIn(position)}
             initial="hidden"
             animate="visible"
@@ -21,6 +21,6 @@ export function MotionTransition(props: MotionTransitionProps) {
             className={className}
         >
             {children}
-        </motion.div>
+        </motion.section>
     )
 }
