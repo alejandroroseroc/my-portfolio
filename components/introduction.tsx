@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 
 const Introduction = () => {
@@ -36,7 +36,7 @@ const Introduction = () => {
                         </a>
                     </div>
                     <div className="mt-16">
-                        <img
+                        <Image 
                             src="/logoar.png" 
                             alt="Logo personal"
                             className="w-52 h-52 object-contain mx-auto" 

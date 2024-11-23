@@ -1,7 +1,7 @@
 import CircleImage from "@/components/circle-image";
 import SliderMyInterests from "@/components/slider-interests";
 import TransitionPage from "@/components/transition-page";
-import { Link } from "lucide-react";
+
 
 const MyInterests = () => {
     return (
