@@ -11,7 +11,9 @@
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.6.0",
+    "framer-motion": "^11.11.17",
     "lucide-react": "^0.460.0",
+    "motion": "^11.11.17",
     "my-portfolio": "file:",
     "next": "15.0.3",
     "react": "^18.2.0",

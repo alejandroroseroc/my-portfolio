@@ -33,31 +33,31 @@ export const itemsNavbar = [
     {
         id: 1,
         title: "Home",
-        icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
+        icon: <HomeIcon size={25} color="#CCD0CF" strokeWidth={1} />,
         link: "/",
     },
     {
         id: 2,
         title: "User",
-        icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
+        icon: <UserRound size={25} color="#CCD0CF" strokeWidth={1} />,
         link: "/about-me",
     },
     {
         id: 3,
         title: "Book",
-        icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+        icon: <BookText size={25} color="#CCD0CF" strokeWidth={1} />,
         link: "/services",
     },
     {
         id: 4,
         title: "Target",
-        icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
+        icon: <CodeSquare size={25} color="#CCD0CF" strokeWidth={1} />,
         link: "/portfolio",
     },
     {
         id: 5,
         title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+        icon: <Speech size={25} color="#CCD0CF" strokeWidth={1} />,
         link: "/testimonials",
     },
 ];

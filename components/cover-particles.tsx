@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 
+
 export const CoverParticles = () => {
     const [init, setInit] = useState(false);
 
@@ -46,10 +47,10 @@ export const CoverParticles = () => {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#CCD0CF",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "##CCD0CF",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
