@@ -1,23 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Urbanist } from "next/font/google";
+
 import "./globals.css";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+;
+const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio Alejandro Rosero",
-  description: "Portfolio de Alejandro Rosero ",
+  title: "TarreDev Landing Page",
+  description: "Landing page made by TarreDev",
 };
 
 export default function RootLayout({
@@ -27,10 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar/>
-        <Header/>
+      <body className={urbanist.className}>
+        <Navbar />
+        <Header />
+        
         {children}
       </body>
     </html>

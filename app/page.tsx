@@ -1,3 +1,4 @@
+
 import { CoverParticles } from "@/components/cover-particles";
 import Introduction from "@/components/introduction";
 import TransitionPage from "@/components/transition-page";
