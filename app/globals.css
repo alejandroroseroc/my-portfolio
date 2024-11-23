@@ -27,3 +27,10 @@ main {
     text-wrap: balance;
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Noto+Sans+TC:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Noto Sans TC', sans-serif; /* Fuente por defecto */
+}
