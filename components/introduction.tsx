@@ -36,11 +36,12 @@ const Introduction = () => {
                         </a>
                     </div>
                     <div className="mt-16">
-                        <Image 
-                            src="/logoar.png" 
-                            alt="Logo personal"
-                            className="w-52 h-52 object-contain mx-auto" 
-                        />
+                    <Image 
+                        src="/logoar.png" 
+                        alt="Logo"
+                        width={300}  // Ancho de la imagen en píxeles
+                        height={300} // Alto de la imagen en píxeles
+/>
                     </div>
 
 

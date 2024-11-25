@@ -4,17 +4,17 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <Linkedin size={50} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/diego-alejandro-rosero-cisneros-254968218/",
     },
     {
         id: 2,
         logo: <Github size={50} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/alejandroroseroc",
     },
     {
         id: 3,
         logo: <Mail size={50} strokeWidth={1} />,
-        src: "#!",
+        src: "mailto:alejandroroseroc@gmail.com",
     },
 ];
 
@@ -115,14 +115,14 @@ export const dataMyProjects = [
         id: 1,
         title: "Inventario Sencillo",
         image: "/java.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/alejandroroseroc/Inventario",
         description:"Un trabajo para implementar Patrones de Software en los cuales se implementó el patron Singlenton, el patron Factory Method, el Patron Observer y el Patron Memento, para el resultado de un Sistema de inventario para una Drogueria Sencillo",
     },
     {
         id: 2,
         title: "Social Network",
         image: "/python.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/alejandroroseroc/ejercicios-Python",
         description:"Un trabajo realizado en el lenguaje de Python el cual se enfoco en implementar estructuras de datos para software como Pilas, Colas, Arbol Binario, indices Invertidos e interfaces para la creacion de una red ocial sencilla la cual permite Registrarse, loguearse, Postear y crear notificaciones para los usuarios"
     
     },
@@ -130,7 +130,7 @@ export const dataMyProjects = [
         id: 3,
         title: "API Cursos FANCS",
         image: "/java.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/alejandroroseroc/TallerUi",
         description:"Un trabajo en el cual se realizo una API sencilla para el proyecto de venta de cursos online el cual se realizo con el lenguaje Java y se lo conecto a una base de datos de MongoDB",
     
     },
